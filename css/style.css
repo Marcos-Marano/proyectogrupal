@@ -21,6 +21,17 @@ header {
     margin-left: 30px;
     font-family: "AstroSpace", sans-serif;
   }
+
+  .logo:hover::after {
+    content: "/";
+    color: white;
+    padding-left: 5px;
+  }
+  .logo:hover::before {
+    content: "/";
+    color: white;
+    padding-right: 5px;
+  }
   
   .navlinks {
     list-style: none;
@@ -46,6 +57,17 @@ header {
   .navlinks li a:hover {
     padding-bottom: 7px;
     border-bottom: 2px solid white;
+  }
+
+  .navlinks li a:hover::after {
+    content: "/";
+    color: white;
+    padding-left: 5px;
+  }
+  .navlinks li a:hover::before {
+    content: "/";
+    color: white;
+    padding-right: 5px;
   }
   
   li a.contact {
@@ -126,5 +148,4 @@ header {
       color: blue;
     }
   }
-  
   /* FIN HEADER */
