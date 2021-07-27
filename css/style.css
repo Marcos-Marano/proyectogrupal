@@ -277,6 +277,14 @@ footer{
       padding: 20px;
     }
 
+    .tel1,
+    .tel2,
+    .tel3,
+    .tel4,
+    .tel5{
+      padding: 8px 0;
+    }
+
     .redes-sociales-footer{
       flex-direction: column;
       text-align: center;
