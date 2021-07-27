@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 /* HEADER */
@@ -9,15 +10,12 @@ header {
   }
   
   .main-nav {
-    height: 90px;
+    height: 150px;
   }
   
   .logo {
-    color: white;
-    line-height: 90px;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
+    width: 10rem;
+    margin-bottom: 5rem;
     margin-left: 30px;
     font-family: "AstroSpace", sans-serif;
   }
@@ -37,7 +35,7 @@ header {
     list-style: none;
     float: right;
     line-height: 90px;
-    margin: 0;
+    margin: 2rem 0;
     padding: 0;
   }
   
@@ -70,6 +68,13 @@ header {
     padding-right: 5px;
   }
   
+  li a.contact:hover::after {
+    content: none;
+  }
+  li a.contact:hover::before {
+    content: none;
+  }
+
   li a.contact {
     background-color: black;
     color: white;
@@ -99,7 +104,67 @@ header {
     cursor: pointer;
   }
 
+  /* CONTACTO */
+  .titulo-contacto {
+    padding-left: 40rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .contenedor-contacto {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contacto-bg {
+    background-image: url(../IMG/img-contact.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+  .formulario {
+    background-color: white;
+    margin: -5rem auto 0 auto;
+    padding: 5rem;
+    width: 95%;
+  }
+
+  .campo {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .campo__label {
+    flex: 0 0 7rem;
+    text-align: right;
+    padding-right: 2rem;
+  }
+
+  .campo__field {
+    flex: 1;
+    border: 1px solid black;
+  }
+
+  .campo__field--textarea {
+    height: 20rem;
+  }
+
+  .boton-contacto {
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+  }
+  .boton-contacto:hover {
+    cursor: pointer;
+  }
 
 /* FOOTER */
 footer{
@@ -234,6 +299,14 @@ footer{
 /* MEDIA QUERYS */
   
   @media (max-width: 900px) {
+    .main-nav {
+      height: 135px;
+    }
+    .logo {
+      width: 5rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
     .navlinks {
       position: fixed;
       width: 100%;
@@ -258,7 +331,7 @@ footer{
   
     .menu-btn {
       display: block;
-      margin: 0 2rem;
+      margin: 1rem 2rem 0 2rem;
       padding: 0 2rem;
     }
   
@@ -319,10 +392,20 @@ footer{
       align-items: center;
       flex-wrap: wrap;
     }
+    .titulo-contacto {
+      padding-left: 0;
+    }
   }
   
   @media (max-width: 400px) {
+    
+    .main-nav {
+      height: 135px;
+    }
     .logo {
+      width: 5rem;
+      margin-bottom: 0;
+  
       margin-left: 10px;
       font-size: 25px;
     }
@@ -334,6 +417,9 @@ footer{
   
     .menu-btn:focus {
       color: blue;
+    }
+    .titulo-contacto {
+      padding-left: 0;
     }
   }
   /* FIN HEADER */
