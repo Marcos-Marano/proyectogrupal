@@ -99,9 +99,136 @@ header {
     cursor: pointer;
   }
 
-  .section7{
-      background-color: #f00054;
-  }
+
+
+/* FOOTER */
+footer{
+  background-color: #333333;
+  color: #fff;
+  margin: 0 auto;
+  padding: 30px 5%;
+}
+
+.telefonos{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subtitulo-footer{
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.subtitulo-footer a{
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s ease all;
+}
+
+.tel1,
+.tel2,
+.tel3,
+.tel4,
+.tel5{
+  text-align: center;
+}
+
+.tel1 .texto-tel,
+.tel2 .texto-tel,
+.tel3 .texto-tel,
+.tel4 .texto-tel,
+.tel5 .texto-tel{
+  font-size: 0.9em;
+  color: #929292;
+}
+
+.redes-sociales-footer{
+  display: flex;
+  padding: 40px 0px;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.redes-sociales-footer .fab{
+  transition: 0.4s ease all;
+}
+
+.linea-horizonal-footer{
+  width: 100%;
+  background-color: #929292;
+  height: 2px;
+}
+
+.nav-footer{
+  display: flex;
+  width: 100%;
+  padding: 40px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-nav-footer{
+  width: 30%;
+}
+
+.titulo-nav-footer p{
+  font-size: 0.7em;   
+}
+
+.nav-footer nav a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease all;
+}
+
+/* HOVER DEL FOOTER */
+.redes-sociales-footer .fa-twitter:hover{
+  color: #2a86f0;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.redes-sociales-footer .fa-facebook-f:hover{
+  color: #1c4292;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.redes-sociales-footer .fa-youtube:hover{
+  color: #da0303;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.redes-sociales-footer .fa-instagram:hover{
+  color: #d600a1;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.redes-sociales-footer .fa-linkedin-in:hover{
+  color: #5796f5;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.subtitulo-footer a:hover{
+  color: #f50000;
+  transition: 0.4s ease all;
+}
+
+.nav-footer nav a:hover{
+  color: #f50000;
+  transition: 0.4s ease all;
+}
+
+
+
+
+
+/* MEDIA QUERYS */
   
   @media (max-width: 900px) {
     .navlinks {
