@@ -152,6 +152,7 @@ footer{
 
 .redes-sociales-footer .fab{
   transition: 0.4s ease all;
+  font-size: 1.4em;
 }
 
 .linea-horizonal-footer{
@@ -261,6 +262,52 @@ footer{
   
     #check:checked ~ .navlinks {
       right: 0;
+    }
+
+    .telefonos{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .titulo-footer{
+      padding: 20px;
+    }
+
+    .subtitulo-footer{
+      padding: 20px;
+    }
+
+    .redes-sociales-footer{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+
+    .redes-sociales-footer .fab{
+      padding: 15px;
+    }
+
+    .nav-footer{
+      flex-direction: column;
+    }
+
+    .titulo-nav-footer{
+      width: 100%;
+      text-align: center;
+    }
+
+    .titulo-nav-footer p{
+      padding: 30px;
+    }
+
+    .nav-footer nav{
+      text-align: center;
+    }
+
+    .nav-footer nav a{
+      padding: 10px;
+      align-items: center;
+      flex-wrap: wrap;
     }
   }
   
