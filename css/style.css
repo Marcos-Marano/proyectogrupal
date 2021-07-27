@@ -148,12 +148,13 @@ footer{
   padding: 50px 0px;
   justify-content: space-between;
   width: 40%;
+  text-align: center;
 }
 
 .redes-sociales-footer .fab{
   transition: 0.4s ease all;
   font-size: 1.4em;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .linea-horizonal-footer{
