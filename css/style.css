@@ -292,6 +292,172 @@ footer{
   transition: 0.4s ease all;
 }
 
+/* Primer-section-nosotros Fede*/
+.primer-section-nosotros{
+  max-width: 100%;
+}
+
+.primer-section-nosotros img{
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  position: relative;
+  filter: brightness(60%)
+}
+
+.primer-section-nosotros h1{
+  position: absolute;
+  top: 380px;
+  left: 35%;
+  font-size: 3.8em;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.segundo-section-nosotros{
+  display: flex;
+  padding: 5% 5%;
+}
+
+.parrafo-derecho-seccion-uno {
+  width: 70%;
+  padding-right: 50px;
+}
+
+.parrafo-derecho-seccion-uno h2{
+  padding-bottom: 20px;
+  font-size: 1.3em; 
+  padding-top: 30px;
+}
+
+.parrafo-derecho-seccion-uno p{
+  padding-bottom: 20px;
+  font-size: 0.9em; 
+}
+
+.letra-roja{
+  color: #fc0000;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.letra-roja span{
+  font-size: 1.8em;
+}
+
+.parrafo-seccion-uno{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.segunda-section-nosotros{
+  width: 100%;
+  text-align: center;
+}
+
+.segunda-section-nosotros h2{
+  padding: 50px 0;
+  font-size: 2.5em;
+}
+
+.trabajamos-div{
+  display: flex;
+  justify-content: center;
+}
+
+.primer-div-trabajamos,
+.segundo-div-trabajamos,
+.tercer-div-trabajamos,
+.cuarto-div-trabajamos{
+  width: 23%;
+  padding: 20px 0;
+}
+
+.primer-div-trabajamos i,
+.segundo-div-trabajamos i,
+.tercer-div-trabajamos i,
+.cuarto-div-trabajamos i{
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+
+.primer-div-trabajamos p,
+.segundo-div-trabajamos p,
+.tercer-div-trabajamos p,
+.cuarto-div-trabajamos p{
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tercera-section-nosotros{
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.tercera-section-nosotros .primer-articulo,
+.tercera-section-nosotros .segundo-articulo,
+.tercera-section-nosotros .tercer-articulo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.tercera-section-nosotros .primer-articulo .foto-articulo-uno img,
+.tercera-section-nosotros .segundo-articulo .foto-articulo-uno img,
+.tercera-section-nosotros .tercer-articulo .foto-articulo-uno img{
+  width: 100%;
+  height: 50vh;
+}
+
+.texto-articulo-uno{
+  width: 50%;
+}
+
+.texto-articulo-uno h3{
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+.cuarta-section-nosotros{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cuarta-section-nosotros h2{
+  padding: 30px 0;
+  font-size: 2.5em;
+}
+
+.unete-div-contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+.unete-primer-id,
+.unete-segundo-id,
+.unete-tercer-id{
+  width: 30%;
+  padding: 50px;
+}
+
+.unete-primer-id i,
+.unete-segundo-id i,
+.unete-tercer-id i{
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+
+.unete-primer-id h4,
+.unete-segundo-id h4,
+.unete-tercer-id h4{
+  font-size: 1.3em;
+  padding: 20px 0;
+}
+
+
 
 
 

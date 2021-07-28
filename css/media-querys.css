@@ -1,0 +1,63 @@
+@media (min-width: 1480px){
+    .primer-section-nosotros h1{
+        top: 480px;
+        left: 40%;
+        font-size: 3.8em;
+      }
+
+    .parrafo-derecho-seccion-uno h2{
+    font-size: 1.8em; 
+    }
+
+    .parrafo-derecho-seccion-uno p{
+        font-size: 1.1em; 
+    }
+
+    .letra-roja{
+        font-size: 1.8em;
+    }
+      
+    .letra-roja span{
+        font-size: 1.8em;
+    }
+      
+    .parrafo-seccion-uno{
+        font-size: 1.1em;
+    }
+
+    .segunda-section-nosotros h2{
+        font-size: 2.8em;
+    }
+
+    .primer-div-trabajamos i,
+    .segundo-div-trabajamos i,
+    .tercer-div-trabajamos i,
+    .cuarto-div-trabajamos i{
+    font-size: 3em;
+    }
+
+    .primer-div-trabajamos p,
+    .segundo-div-trabajamos p,
+    .tercer-div-trabajamos p,
+    .cuarto-div-trabajamos p{
+        font-size: 1.2em;
+    }
+
+    .texto-articulo-uno h3{
+        font-size: 2.2em;
+    }
+
+    .texto-articulo-uno p{
+        font-size: 1.3em;
+    }
+
+    .cuarta-section-nosotros h2{
+        font-size: 3em;
+    }
+
+    .unete-primer-id i,
+    .unete-segundo-id i,
+    .unete-tercer-id i{
+    font-size: 3em;
+    }
+}
