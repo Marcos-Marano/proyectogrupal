@@ -351,7 +351,302 @@ main {
 /* Fin Section/Main */
 
 
+/* SECCION CATASTROFES ENZO */
 
+.body-catastrofes {
+  background-color: #333333;
+}
+
+
+/* SECCION COVID */
+
+.contenedor-h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+}
+
+.h1-covid {
+  background-color: #141b25;
+  border-radius: 100px;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+}
+
+.section-covid {
+  display: flex;
+  justify-content: space-around;
+  height: 95%;
+  background-color: #333333;
+  padding-top: 10px;
+}
+
+.div-covid {
+  width: 32%;
+  background-color: #141b25;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  padding: 20px;
+}
+
+.div-sintomas {
+  width: 32%;
+  background-color: #141b25;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  padding: 10px;
+}
+
+.div-sintomas ul li {
+  text-align: left;
+  padding-left: 7px;
+  padding-top: 2px;
+  list-style-position: inside;
+}
+
+.div-sintomas a {
+  text-decoration: none;
+  color: white;
+  cursor: auto;
+}
+
+.div-prevencion {
+  width: 32%;
+  background-color: #141b25;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border: solid 2px white;
+}
+
+.fas {
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+}
+
+
+/* FIN COVID */
+
+
+/* SECCION GUERRA */
+
+.section-guerras {
+  background-color: #333333;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.h1-guerras {
+  background-color: #141b25;
+  border-radius: 100px;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  height: 50px;
+  font-size: 30px;
+}
+
+.section-guerras p {
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.section-guerras h2 {
+  font-size: 30px;
+  padding: 0;
+}
+
+.div-guerras {
+  color: white;
+}
+
+.h2-guerras {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.div-guerras p {
+  padding: 20px;
+}
+
+.contenedor-siria {
+  display: flex;
+  background-color: #1c4292;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  border: solid 2px white;
+}
+
+.div-siria {
+  text-align: center;
+  font-size: 110%;
+  padding: 9px;
+}
+
+.div-siria p {
+  margin: 0;
+  padding: 0;
+}
+
+.div-siria h3 {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.contenedor-yemen {
+  display: flex;
+  background-color: #1c4292;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  height: 70%;
+  border: solid 2px white;
+}
+
+.div-yemen {
+  text-align: center;
+  font-size: 100%;
+  padding: 9px;
+}
+
+.div-yemen p {
+  margin: 0;
+  padding: 5px;
+}
+
+.div-yemen h3 {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.contenedor-oriente {
+  display: flex;
+  background-color: #1c4292;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+  margin-top: 20px;
+  border: solid 2px white;
+}
+
+.div-oriente {
+  text-align: center;
+  font-size: 110%;
+  padding: 9px;
+}
+
+.div-oriente p {
+  margin: 0;
+  padding: 8px;
+}
+
+.div-oriente h3 {
+  padding: 8px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.contenedor-sudan {
+  display: flex;
+  background-color: #1c4292;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+  margin-top: 20px;
+  border: solid 2px white;
+}
+
+.div-sudan {
+  text-align: center;
+  font-size: 110%;
+  padding: 9px;
+}
+
+.div-sudan p {
+  margin: 0;
+  padding: 6px;
+}
+
+.div-sudan h3 {
+  padding: 2px;
+  font-size: 30px;
+}
+
+.img-sudan {
+  width: 40%;
+}
+
+
+/* FIN GUERRA */
+
+
+/* POLITICA */
+
+.h2-politic {
+  background-color: #141b25;
+  border-radius: 100px;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  height: 40px;
+}
+
+.contenedor-politic {
+  width: 100%;
+  background-image: url("../IMG/backgroundpolitic.png");
+  border-radius: 20px;
+  border: solid 5px black;
+  display: flex;
+  justify-content: center;
+}
+
+.div-politic {
+  padding: 20px;
+  text-align: center;
+  height: 80%;
+  background-color: rgba(156, 162, 212, 0.5);
+  border-radius: 80px;
+  margin: 20px;
+}
+
+.img-money {
+  width: 50%;
+  border-radius: 7px;
+}
+
+.div-politic p {
+  padding: 9px;
+}
+
+.div-politic h2 {
+  text-decoration: underline;
+}
+
+
+/* FIN POLITICA */
 
 
 
@@ -367,6 +662,19 @@ footer{
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.titulo-footer{
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+.telefonos .titulo-footer a img{
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
 }
 
 .subtitulo-footer{
