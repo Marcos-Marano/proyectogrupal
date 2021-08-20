@@ -159,4 +159,17 @@
         margin: 0px;
         font-size: 90%;
     }
+
+    /***SECCION DE NOTICIAS***/
+
+    .primer-section-noticias{
+        text-align: center;
+    }
+
+    .imagen-section-noticias img,
+    .segunda-imagen-noticias img,
+    .tercera-imagen-noticias img{
+        margin: 50px 0;
+        width: 100%;
+    }
 }
